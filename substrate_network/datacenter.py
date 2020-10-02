@@ -53,7 +53,7 @@ class DC(object):
 		else:
 			raise TypeError(obj, "should be a Rack, a Switch or a Link.")
 
-	# function used for (1) populating a datacenter with network elements 
+	# function used for populating a datacenter with network elements 
 	def populateDc(self, topology, k, num_of_servers, num_of_racks, num_of_core):
 
 		if topology == "3-Layer Fat-Tree":
